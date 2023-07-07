@@ -9,11 +9,11 @@ const ContainerComponent = () => {
     return (
         <div className='container flex flex-column' >
             <article className='flex'>
-                <div className="">
+                <div>
                     <code>{'<Buttton />'}</code>
                     <ButtonComponent text={'Default'} />
                 </div>
-                <div>
+                <div className="gro">
                     <code>{'&:hover, &:focus'}</code>
                     <ButtonComponent text={'Default'} />
                 </div>

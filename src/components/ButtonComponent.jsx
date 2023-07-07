@@ -1,5 +1,6 @@
 
 import PropTypes from 'prop-types';
+import '../../src/App.css'
 
 
 const ButtonComponent = ({ variant, text, disabled, startIcon, endIcon, disableShadow, size, color }) => {

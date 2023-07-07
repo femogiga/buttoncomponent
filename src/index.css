@@ -1,25 +1,18 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  /* line-height: 1.5; */
   font-weight: 400;
-  font-synthesis: none;
+  /* font-synthesis: none; */
   /* text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%; */
-  --color-black: rgba(0 0 0);
+  /* --color-black: rgba(0 0 0); */
 }
 
-*,
-*::after,
-*:before {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 
 
 body {
   min-height: 100vh;
-
+  width:90%;
 }
