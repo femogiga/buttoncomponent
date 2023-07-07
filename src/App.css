@@ -1,0 +1,161 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-size: 1rem;
+  padding-inline: 1rem;
+  padding-block: 1rem;
+
+}
+
+
+
+.container {
+
+  width: 90%;
+}
+
+.flex {
+  display: flex;
+  gap: 4rem;
+}
+
+.sm {
+  padding: .7rem 0rem;
+}
+
+.md {
+  padding: .9rem 0rem;
+}
+
+.lg {
+  padding: 1.2rem 0rem;
+}
+
+.buttonContainer {
+  padding-block: 1rem;
+
+}
+
+.outline {
+  outline: 1px solid;
+  color: blue;
+  background-color: unset;
+}
+
+.outline:hover {
+  outline: 1px solid;
+  color: blue;
+  background-color: unset;
+}
+
+.flex-column {
+  flex-direction: column;
+
+
+}
+
+button {
+
+  padding: .7rem 0rem;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: .3rem;
+  width: 8rem;
+
+  background-color: hsla(0, 0%, 80%);
+  border: none;
+
+}
+
+.primary {
+  color: white;
+  background-color: hsl(221, 67%, 49%);
+}
+
+
+.secondary {
+  /* color:white; */
+  background-color: hsla(0, 3%, 34%, 0.849);
+  color: white;
+}
+
+.danger {
+  background-color: rgba(252, 8, 8, 0.993);
+  color: white;
+}
+
+
+
+.primary:hover {
+  color: white;
+  background-color: hsl(221, 67%, 25%);
+}
+
+
+.secondary:hover {
+  /* color:white; */
+  background-color: hsla(0, 3%, 14%);
+  color: white;
+}
+
+.danger:hover {
+  background-color: hsl(0, 98%, 23%);
+  color: white;
+}
+
+
+code {
+  white-space: nowrap
+}
+
+
+.text {
+  border: none;
+  color: blue;
+  background-color: unset;
+}
+
+.text:hover {
+  background-color: hsl(0, 0%, 90%);
+}
+
+.disableShadow {
+  outline: none;
+  border: unset;
+
+}
+
+
+
+button:hover,
+button:focus {
+  background-color: hsl(0, 0%, 50%);
+}
+
+[disabled],
+[disabled]:hover {
+  cursor: initial;
+  background-color: hsl(0, 0%, 80%);
+  border: none;
+  color: hsl(0, 0%, 50%);
+}
+
+/* .text[disabled] {
+
+  color: hsl(0, 0%, 70%);
+  background-color: white;
+} */
+
+
+.text[disabled],
+.text[disabled]:hover {
+  background-color: white;
+}
+
+[disabled]:hover {
+  background-color: hsl(0, 0%, 80%);
+}
